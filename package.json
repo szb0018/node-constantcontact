@@ -1,0 +1,39 @@
+{
+  "name": "node-constantcontact",
+  "version": "1.0.0",
+  "description": "Constant Contact v2 API client for Node.js",
+  "keywords": [
+    "constantcontact",
+    "constant",
+    "contact",
+    "email",
+    "lists",
+    "v2",
+    "api",
+    "client"
+  ],
+  "author": "Jonathon Hill",
+  "license": "MIT",
+  "main": "lib/",
+  "engines": {
+    "node": ">=6.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/compwright/node-constantcontact.git"
+  },
+  "dependencies": {
+    "@purest/providers": "^1.0.1",
+    "debug": "^2.6.8",
+    "dot-prop": "^4.1.1",
+    "extend": "^3.0.1",
+    "http-errors": "^1.6.1",
+    "object.entries": "^1.0.4",
+    "purest": "^3.1.0",
+    "request": "^2.81.0",
+    "url-assembler": "^1.2.8"
+  }
+}
