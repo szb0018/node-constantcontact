@@ -164,6 +164,10 @@
     },
     "clicks": {
       "method": "GET",
+      "url": "emailmarketing/campaigns/:id/tracking/clicks"
+    },
+    "clicks.links": {
+      "method": "GET",
       "url": "emailmarketing/campaigns/:id/tracking/clicks/:linkId"
     },
     "forwards": {
